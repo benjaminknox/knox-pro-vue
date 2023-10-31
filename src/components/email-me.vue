@@ -1,0 +1,22 @@
+<template>
+  <a
+    href="mailto:bknox.contact@gmail.com"
+    className="email-me flex justify-center items-center"
+  >
+    Email Me
+  </a>
+</template>
+
+<style>
+a.email-me {
+  border-radius: 10px;
+  border: 1px solid rgba(var(--block-border-color-rgba));
+  background-color: rgb(var(--block-bg-color-rgb));
+  width: 272px;
+  height: 75px;
+  font-size: 30px;
+  position: relative;
+  z-index: 2;
+  margin: 164px auto;
+}
+</style>
