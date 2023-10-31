@@ -7,12 +7,12 @@ defineProps({
 
 <template>
   <a target="_blank" :href="companyUrl">
-    <div className="flex flex-col sm:flex-row experience">
-      <div className="flex content-center justify-center logo-wrapper">
+    <div class="flex flex-col sm:flex-row experience">
+      <div class="flex content-center justify-center logo-wrapper">
         <slot name="logo"></slot>
       </div>
-      <div className="content">{{content}}</div>
-      <img src='../assets/svgs/right-arrow.svg' alt="Right arrow" className='hidden md:block' />
+      <div class="content">{{content}}</div>
+      <img src='../assets/svgs/right-arrow.svg' alt="Right arrow" class='hidden md:block' />
     </div>
   </a>
 </template>

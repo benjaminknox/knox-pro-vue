@@ -1,5 +1,5 @@
 <template>
-  <header className='flex flex-col items-center'>
+  <header class='flex flex-col items-center'>
     <h1>Benjamin Knox</h1>
     <h2>A Blend of Professionalism and Authenticity</h2>
     <img 

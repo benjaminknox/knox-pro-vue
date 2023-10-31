@@ -1,7 +1,7 @@
 <template>
   <a
     href="mailto:bknox.contact@gmail.com"
-    className="email-me flex justify-center items-center"
+    class="email-me flex justify-center items-center"
   >
     Email Me
   </a>

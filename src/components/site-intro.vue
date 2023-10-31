@@ -1,5 +1,5 @@
 <template>
-    <article className="intro">
+    <article class="intro">
     <p>
       Hello there! Welcome to the heart of my professional journey, where I,
       Benjamin Knox, strive to combine the best of both worlds - professionalism

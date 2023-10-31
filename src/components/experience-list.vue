@@ -4,7 +4,7 @@ import BackgroundBlur from "./background-blur.vue";
 </script>
 
 <template>
-    <section className="flex flex-col justify-center experience-list">
+    <section class="flex flex-col justify-center experience-list">
     <h1>Recent Experience</h1>
     <ExperienceItem
       content="Throughout my remarkable six-year journey with Physna, I wholeheartedly dedicated myself to the company's visionary mission of simplifying complex 3D data for enterprise applications, employing a versatile technology stack to drive us toward groundbreaking innovations."

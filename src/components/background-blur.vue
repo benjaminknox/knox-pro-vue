@@ -1,7 +1,7 @@
 <template>
-  <section className='blur-wrapper'>
-    <div className="tan-blur"></div>
-    <div className="blue-blur"></div>
+  <section class='blur-wrapper'>
+    <div class="tan-blur"></div>
+    <div class="blue-blur"></div>
   </section>
 </template>
 
