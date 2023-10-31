@@ -1,9 +1,9 @@
 ## Knox.Pro Vue
 
 
-This is an example vue app, deployed at https://vue.knox.pro.
+This is an example vue website, deployed at https://vue.knox.pro.
 
-It is an implementation of the same NextJS app in [benjaminknox/knox-pro-next](https://github.com/benjaminknox/knox-pro-next) running at https://knox.pro.
+It is an implementation of the same NextJS website in [benjaminknox/knox-pro-next](https://github.com/benjaminknox/knox-pro-next) running at https://knox.pro.
 
 #### Desktop
 
@@ -31,12 +31,11 @@ npm run dev
 
 ### Building
 
-I've deployed this as a static site, you can build the docker container with this command:
-
+I've deployed this as a static site, you can build and run a docker container with this command:
 
 ```bash
-docker build .
+docker build . && docker run -d -p 8080:80 knox-pro-vue
 ```
 
-The build ends up being in `./dist`, and I've deploy on [DigitalOcean app-platform](https://www.digitalocean.com/go/app-platform).
+Using the container above I've deploy on [DigitalOcean app-platform](https://www.digitalocean.com/go/app-platform).
 
